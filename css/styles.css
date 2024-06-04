@@ -647,10 +647,11 @@ li{
     position:absolute;
     font-size:12px;
     opacity: 1;
-    left:-100px;
-    top:-100px;
+    left: 0px !important;
+    top: 0px !important;
     -webkit-user-modify: read-write-plaintext-only;
     z-index: 11;
+    width: 100%;
 }
 
 #key_interceptor:focus{

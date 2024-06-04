@@ -914,8 +914,6 @@ function setEvents(){
     });
 
 
-
-
     $('#btn_menu_check').click(function(){
         $('.fixed-action-btn').closeFAB();
         checkEntireGrid();
