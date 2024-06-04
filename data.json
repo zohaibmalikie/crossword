@@ -1,0 +1,128 @@
+{
+    "width": 15,
+    "height": 15,
+    "acrossClues": [
+        {
+            "answer": "Own",
+            "clue": "Everything of life will accept its kind as its _.",
+            "x": 12,
+            "y": 0
+        },
+        {
+            "answer": "Unity",
+            "clue": "Men everywhere are seeking ___ among themselves.",
+            "x": 10,
+            "y": 2
+        },
+        {
+            "answer": "Eliminate",
+            "clue": "We must ___ the master-slave relationship.",
+            "x": 1,
+            "y": 3
+        },
+        {
+            "answer": "Thousands",
+            "clue": "For how many years did the Most Honorable Elijah Muhammad say that people worshipped their own ideas of God.",
+            "x": 6,
+            "y": 5
+        },
+        {
+            "answer": "Education",
+            "clue": "No one can enslave another who has equal what?",
+            "x": 3,
+            "y": 8
+        },
+        {
+            "answer": "Righteous",
+            "clue": "There are several civilizations. We have a ­­­­­­wicked one and a ___ one.",
+            "x": 6,
+            "y": 10
+        },
+        {
+            "answer": "Prophets",
+            "clue": "Can God be a Mystery and yet send who to represent Himself?",
+            "x": 0,
+            "y": 12
+        },
+        {
+            "answer": "Self",
+            "clue": "We must become aware of the knowledge of this and the time in which we are living.",
+            "x": 0,
+            "y": 14
+        },
+        {
+            "answer": "Only",
+            "clue": "In Chapter 21 of Message to the Blackman the Mostkm Hon. Elijah Muhammad refers to Separation is the ____ solution to our problem",
+            "x": 10,
+            "y": 14
+        }
+    ],
+    "downClues": [
+        {
+            "answer": "Original",
+            "clue": "What question has now been answered from the mouth of Allah to us? Who is the ___ man?",
+            "x": 12,
+            "y": 0
+        },
+        {
+            "answer": "Woman",
+            "clue": "This is the mans field to produce a nation.",
+            "x": 4,
+            "y": 1
+        },
+        {
+            "answer": "Mathematics",
+            "clue": "In Referring to the Father, the Son and the Holy Ghost being three that has been made one, he says that this is contrary to both nature and what?",
+            "x": 7,
+            "y": 2
+        },
+        {
+            "answer": "Equal",
+            "clue": "Will a free people accept slaves as their ___?",
+            "x": 1,
+            "y": 3
+        },
+        {
+            "answer": "Country",
+            "clue": "Allah is here to give you and me a superior knowledge of things and a ___ to ourselves.",
+            "x": 13,
+            "y": 8
+        },
+        {
+            "answer": "True",
+            "clue": "You must know that you have not been rightly civilized.",
+            "x": 1,
+            "y": 11
+        }
+    ],
+    "settings": {
+        "alphabet": "ABCÇDEFGHIİJKLMNOÖPQRSŞTUÜVWXYZabcçdefghıijklmnoöpqrsştuüvwxyz",
+        "cell_highlight_color": "#c5cae9",
+        "selected_cell_color": "#7986cb",
+        "letter_cell_color": "#efefef",
+        "empty_cell_color": "#f92e29",
+        "cell_line_color": "#ffffff00",
+        "wrong_cell_color": "#FF0000",
+        "letter_color": "#000000",
+        "number_color": "#000000"
+    },
+    "labels": {
+        "clear_dialog_title": "Warning",
+        "clear_dialog_text": "Do you really want to clear the board?",
+        "crossword_theme": "General",
+        "description": "This is a modern crossword game with HTML5 canvas and material design elements.",
+        "help_text": "Fill in the correct answers, one letter per square, both across and down, from the given clues. You can reveal a letter or word when you are stuck.",
+        "help_title": "Instructions",
+        "game_title": "Crossword",
+        "button_label_dialog_close": "Close",
+        "across": "Across",
+        "down": "Down",
+        "congrat_title": "Well done!",
+        "btn_label_share_win": "Share",
+        "btn_label_yes": "Yes",
+        "btn_label_no": "No",
+        "reveal_letter": "Reveal letter",
+        "reveal_word": "Reveal word",
+        "submit_answer": "Answer"
+    }
+}
