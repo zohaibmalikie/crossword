@@ -981,7 +981,10 @@ function triggerInput(selectedCell){
         var key_interceptor = document.getElementById('key_interceptor');
         key_interceptor.style.left = selectedCell.x + 'px';
         key_interceptor.style.top = selectedCell.y  + 'px';
-        $('#key_interceptor').focus();
+
+        setTimeout(function () {
+            $('input').focus();
+        }, 1000);
     }
 
 }
