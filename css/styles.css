@@ -653,6 +653,9 @@ li{
     top: -100px;
     -webkit-user-modify: read-write-plaintext-only;
     width: 50px;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
 }
 
 #key_interceptor:focus{

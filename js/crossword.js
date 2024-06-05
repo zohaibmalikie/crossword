@@ -985,7 +985,7 @@ function triggerInput(selectedCell){
         key_interceptor.style.top = selectedCell.y  + 'px';
 
         setTimeout(() => {
-            document.getElementById('key_interceptor').focus();
+            key_interceptor.click();
         }, 10);
     }
 
