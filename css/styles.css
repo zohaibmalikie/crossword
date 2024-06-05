@@ -650,6 +650,7 @@ li{
     left: -100px;
     top: -100px;
     -webkit-user-modify: read-write-plaintext-only;
+    width: 50px;
 }
 
 #key_interceptor:focus{
