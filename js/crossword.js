@@ -46,9 +46,11 @@ var RESIZE_OPTION = {
 
 
 function supportsTouch() {
-    return (('ontouchstart' in window)
-    || (navigator.MaxTouchPoints > 0)
-    || (navigator.msMaxTouchPoints > 0));
+    return 'ontouchstart' in window || navigator.maxTouchPoints > 0;
+
+    // return (('ontouchstart' in window)
+    // || (navigator.MaxTouchPoints > 0)
+    // || (navigator.msMaxTouchPoints > 0));
 }
 
 
