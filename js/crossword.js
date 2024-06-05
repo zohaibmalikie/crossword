@@ -46,11 +46,9 @@ var RESIZE_OPTION = {
 
 
 function supportsTouch() {
-    return 'ontouchstart' in window || navigator.maxTouchPoints > 0;
-
-    // return (('ontouchstart' in window)
-    // || (navigator.MaxTouchPoints > 0)
-    // || (navigator.msMaxTouchPoints > 0));
+    return (('ontouchstart' in window)
+    || (navigator.MaxTouchPoints > 0)
+    || (navigator.msMaxTouchPoints > 0));
 }
 
 
@@ -886,6 +884,8 @@ function setEvents(){
         $('#modal2').closeModal();
         selectedCell.setSelected(true);
 
+        $('#key_interceptor').focus()
+
         setTimeout(function () {
             triggerInput(selectedCells[0]);
         }, 1000);
@@ -977,14 +977,13 @@ function orientationWarn(){
 
 function triggerInput(selectedCell){
 
+    console.log(selectedCell, supportsTouch())
+
     if(selectedCell && supportsTouch()){
         var key_interceptor = document.getElementById('key_interceptor');
+        key_interceptor.focus();
         key_interceptor.style.left = selectedCell.x + 'px';
         key_interceptor.style.top = selectedCell.y  + 'px';
-
-        setTimeout(function () {
-            $('input').focus();
-        }, 1000);
     }
 
 }
@@ -1476,7 +1475,6 @@ function main() {
         $('#key_interceptor').attr('autocorrect','off');
         $('#key_interceptor').attr('autocomplete','off');
         $('#key_interceptor').attr('autocapitalize','none');
-        $('#key_interceptor').attr('autofocus','autofocus');
     }
 
 
