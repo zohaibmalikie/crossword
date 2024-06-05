@@ -983,12 +983,10 @@ function triggerInput(selectedCell){
         
         key_interceptor.style.left = selectedCell.x + 'px';
         key_interceptor.style.top = selectedCell.y  + 'px';
-        key_interceptor.focus();
 
-        key_interceptor.addEventListener('click', function tempClick() {
-            key_interceptor.focus();
-            key_interceptor.removeEventListener('click', tempClick);
-        });
+        setTimeout(() => {
+            document.getElementById('key_interceptor').focus();
+        }, 10);
     }
 
 }
