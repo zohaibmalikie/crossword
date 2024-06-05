@@ -979,14 +979,9 @@ function triggerInput(selectedCell){
 
     if(selectedCell && supportsTouch()){
         var key_interceptor = document.getElementById('key_interceptor');
-        key_interceptor.style.opacity = '1'; // Make the input visible
-        
         key_interceptor.style.left = selectedCell.x + 'px';
         key_interceptor.style.top = selectedCell.y  + 'px';
-
-        setTimeout(() => {
-            key_interceptor.click();
-        }, 10);
+        $('#key_interceptor').focus();
     }
 
 }
