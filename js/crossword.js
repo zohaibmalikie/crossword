@@ -977,16 +977,9 @@ function triggerInput(selectedCell){
 
     if(selectedCell && supportsTouch()){
         var key_interceptor = document.getElementById('key_interceptor');
+        key_interceptor.focus();
         key_interceptor.style.left = selectedCell.x + 'px';
         key_interceptor.style.top = selectedCell.y  + 'px';
-        setTimeout(() => {
-            key_interceptor.focus();
-
-            key_interceptor.blur();
-            setTimeout(() => {
-                key_interceptor.focus();
-            }, 500);
-        }, 1000);
     }
 
 }
@@ -1478,6 +1471,7 @@ function main() {
         $('#key_interceptor').attr('autocorrect','off');
         $('#key_interceptor').attr('autocomplete','off');
         $('#key_interceptor').attr('autocapitalize','none');
+        $('#key_interceptor').attr('autofocus','autofocus');
     }
 
 
